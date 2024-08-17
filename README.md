@@ -21,7 +21,7 @@ Instalacion
 Para ejecutar OneApp, en tu maquina local, sigue estos pasos: 
 
 Clonar el repositorio:
-git clone https://github.com/tlacaelel666/codespaces.flask/devcontainer.git
+git clone https://github.com/tlacaelel666/oneload.git
 Crea un entorno virtual (opcional pero recomendado).
 python -m venv name
 source venv/bin/activate #En Windows usa venv/Scripts/activate
