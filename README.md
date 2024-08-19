@@ -2,7 +2,7 @@
 
 convert url to mp3 download
 
-Oneload es una aplicacion que permite convertir videos de YouTube a archivos MP3 de manera facil y rapida. Este proyecto ha sido desarrollado utilizando Flask para el backend y HTML y CCS para el frontend.
+Oneload es una aplicacion que permite convertir videos de YouTube a archivos MP3 de manera facil y rapida. Este proyecto ha sido desarrollado utilizando Flask para el backend y HTML y CSS para el frontend.
 
 Tabla de contenidos
 
@@ -31,12 +31,14 @@ pip install -r requirements.txt
 Configurar las variables de entorno:
 crea un archivo .env en el directorio raiz del proyecto y agrega las siguientes variables:
 
-Flask_APP=app
+Flask_APP=app.py
 Flask_ENV=developnent
+DEBUG=True
 
 Ejecutar la aplicacion: 
 
 flask run
+
 Acceder a la aplicacion: 
 Abre tu navegador web y visita htt://127.0.0.1:5000.
 
@@ -58,11 +60,10 @@ Crear una Pull Request en el repositorio original.
 
 Licencia
 
-Este proyecto esta bajo la licencia Apache. Puedes ver el archivo LICENSE para mas detalles. 
+Este proyecto esta bajo la licencia MIT. Puedes ver el archivo LICENSE para mas detalles. 
 Contacto
 
 Para cualquier consulta o sugerencia, puedes contactar a:
 Nombre: Jacobo Mina
 Email: [jakocrazykings@gmail.com]
 
-g
