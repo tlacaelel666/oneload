@@ -1,13 +1,11 @@
 import yt_dlp
 from flask import Blueprint, request, send_file, jsonify, render_template
 
-bp = Blueprint('main', __name__)
-
+auth = Blueprint('auth', __name__)
 
 @bp.route('/')
 def index():
     return render_template('index.html')
-
 
 @bp.route('/convert', methods=['POST'])
 def convert_url_to_mp3(stre=None, Exception=None):
