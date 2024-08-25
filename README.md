@@ -32,7 +32,7 @@ Configurar las variables de entorno:
 crea un archivo .env en el directorio raiz del proyecto y agrega las siguientes variables:
 
 Flask_APP=app.py
-Flask_ENV=developnent
+Flask_ENV=development
 DEBUG=True
 
 Ejecutar la aplicacion: 
@@ -48,6 +48,7 @@ Convertir un video:
 Ingresa la URL del video de YouTube que deseas convertir. 
 Haz Clic en el boton "Convertir"
 Espera a que la conversion se complete y descarga el archivo MP3.
+
 Contribuir
 
 Contribuciones son bienvenidas! Si deseas mejorar OneApp, sigue estos pasos: 
